@@ -42,9 +42,23 @@ class Bank:
         print("4.Withdraw Amount")
         print("6.Exit")
         
-# Taking input from the user
-name=input("Enter your name : ")
-print("Account number should be a 8 digit number :")
+# Taking input from the user and validating the input
+while True:
+    name=input("Enter your name : ")
+    if (name.isalpha()):
+        break
+    else:
+        print("Account number should not contain numbers")
+
+
+print("Account number should be a 8 digit number")
+while True:
+    account_number=input("Enter your acount number : ")
+    if (len(account_number) ==8 and account_number.isdigit()):
+        print("Valid account number")
+        break
+    else:
+         print("Invalid account number! Please enter exactly 8 digits") 
 
 # Create Bank object
 account=Bank(name,account_number)
