@@ -1,4 +1,4 @@
-from Bank import bank
+from bank_class import Bank
 
 # Taking input from the user and validating the input
 while True:
