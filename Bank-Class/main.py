@@ -1,3 +1,5 @@
+from Bank import bank
+
 # Taking input from the user and validating the input
 while True:
     name=input("Enter your name : ")
@@ -49,3 +51,7 @@ while True:
         exit()
     else:
         print("Please enter a valid choice")
+
+if __name__ == "__main__":
+    main()
+  
