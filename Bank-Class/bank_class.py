@@ -26,3 +26,9 @@ class Bank:
             print("Insufficient fund")
         else:
             print("Enter a valid amount")
+
+    # Method to display phone details
+    def show_details(self):
+        print("Account name : ",self.name)
+        print("Account number : ",self.account_number)
+        print("Balance amount : ",self.balance)
