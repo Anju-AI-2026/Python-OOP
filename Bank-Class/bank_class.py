@@ -32,3 +32,12 @@ class Bank:
         print("Account name : ",self.name)
         print("Account number : ",self.account_number)
         print("Balance amount : ",self.balance)
+
+    # Display banking menu options
+    def see_menu(self):
+        print("============Choose a option from the menu============")
+        print("1.See menu")
+        print("2.Show details")
+        print("3.Deposit Amount")
+        print("4.Withdraw Amount")
+        print("6.Exit")
