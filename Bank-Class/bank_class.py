@@ -7,3 +7,11 @@ class Bank:
         self.name=name
         self.account_number=account_number
         self.balance=0
+
+    # Method to deposit amount
+    def deposit(self,amount):
+        if (amount>0):
+            self.balance+=amount
+            print("Deposit successfully")
+        else:
+            print("Enter a valid amount")
