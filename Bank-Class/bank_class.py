@@ -15,3 +15,14 @@ class Bank:
             print("Deposit successfully")
         else:
             print("Enter a valid amount")
+
+    # Method to withdraw amount
+    def withdraw(self,amount):
+        if(amount>0) and (amount<=self.balance):
+            self.balance=(self.balance - amount)
+            print("Amount withdraw successfully!!!")
+            print("The current Balance : ",self.balance)
+        elif(amount>self.balance):
+            print("Insufficient fund")
+        else:
+            print("Enter a valid amount")
