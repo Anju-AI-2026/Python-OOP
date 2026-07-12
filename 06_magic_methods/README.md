@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains programs that demonstrate Python's **magic methods (dunder methods)**. These methods allow custom objects to work naturally with Python's built-in functions and provide better object representation and functionality.
+This folder contains programs that demonstrate Python's **magic methods (dunder methods)**. These methods allow custom objects to work naturally with Python's built-in functions and improve object representation, comparison, and functionality.
 
 ## Programs
 
@@ -21,11 +21,16 @@ This folder contains programs that demonstrate Python's **magic methods (dunder 
 * **Concept:** `__repr__()`
 * Returns the official string representation of an `Employee` object.
 
+### 4. `student_eq_method.py`
+
+* **Concept:** `__eq__()`
+* Compares two `Student` objects based on their USN.
+
 > More magic method programs will be added as I continue learning Python OOP.
 
 ## Learning Outcomes
 
-* Understand the purpose of Python magic methods.
-* Use built-in functions with custom objects.
-* Improve object representation and functionality.
-* Write cleaner and more Pythonic OOP code.
+* Understand Python magic methods.
+* Customize object representation.
+* Compare custom objects using operators.
+* Make classes work naturally with Python's built-in features.
