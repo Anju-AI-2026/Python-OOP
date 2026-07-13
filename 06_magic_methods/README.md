@@ -26,6 +26,11 @@ This folder contains programs that demonstrate Python's **magic methods (dunder 
 * **Concept:** `__eq__()`
 * Compares two `Student` objects based on their USN.
 
+### 5. `product_lt_method.py`
+
+* **Concept:** `__lt__()`
+* Compares two `Product` objects based on their price using the `<` operator.
+
 > More magic method programs will be added as I continue learning Python OOP.
 
 ## Learning Outcomes
@@ -34,3 +39,5 @@ This folder contains programs that demonstrate Python's **magic methods (dunder 
 * Customize object representation.
 * Compare custom objects using operators.
 * Make classes work naturally with Python's built-in features.
+* Write cleaner and more Pythonic OOP programs.
+
