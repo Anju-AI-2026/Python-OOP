@@ -19,7 +19,12 @@ This folder contains programs that demonstrate **class methods** and **static me
 ### 3. `pizza_factory_classmethod.py`
 
 * **Concept:** Factory Method using `@classmethod`
-* Creates predefined pizza objects using class methods instead of calling the constructor directly.
+* Creates predefined pizza objects using class methods.
+
+### 4. `password_utility_staticmethod.py`
+
+* **Concept:** `@staticmethod`
+* Checks the strength of a password without creating an object.
 
 > More class method and static method programs will be added as I continue learning Python OOP.
 
@@ -29,4 +34,6 @@ This folder contains programs that demonstrate **class methods** and **static me
 * Learn the difference between `self` and `cls`.
 * Work with class variables.
 * Create objects using factory methods.
+* Use `@staticmethod` for utility functions.
 * Write cleaner and more maintainable OOP code.
+
