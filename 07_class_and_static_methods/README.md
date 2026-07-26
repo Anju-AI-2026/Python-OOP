@@ -26,6 +26,11 @@ This folder contains programs that demonstrate **class methods** and **static me
 * **Concept:** `@staticmethod`
 * Checks the strength of a password without creating an object.
 
+### 5. `email_validator_staticmethod.py`
+
+* **Concept:** `@staticmethod`
+* Validates whether an email address has a basic valid format.
+
 > More class method and static method programs will be added as I continue learning Python OOP.
 
 ## Learning Outcomes
@@ -34,6 +39,7 @@ This folder contains programs that demonstrate **class methods** and **static me
 * Learn the difference between `self` and `cls`.
 * Work with class variables.
 * Create objects using factory methods.
-* Use `@staticmethod` for utility functions.
+* Use `@staticmethod` for utility and validation methods.
 * Write cleaner and more maintainable OOP code.
+
 
