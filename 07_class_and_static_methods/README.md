@@ -31,15 +31,21 @@ This folder contains programs that demonstrate **class methods** and **static me
 * **Concept:** `@staticmethod`
 * Validates whether an email address has a basic valid format.
 
-> More class method and static method programs will be added as I continue learning Python OOP.
+### 6. `circle_staticmethod.py`
+
+* **Concept:** `@staticmethod`
+* Calculates the area and circumference of a circle using utility methods.
 
 ## Learning Outcomes
 
-* Understand the purpose of `@classmethod`.
-* Learn the difference between `self` and `cls`.
-* Work with class variables.
+After completing this module, you will be able to:
+
+* Understand the purpose of `@classmethod` and `@staticmethod`.
+* Learn the difference between `self`, `cls`, and static methods.
+* Work with class variables effectively.
 * Create objects using factory methods.
-* Use `@staticmethod` for utility and validation methods.
-* Write cleaner and more maintainable OOP code.
+* Build utility and validation methods using `@staticmethod`.
+* Organize related functions inside classes following OOP principles.
+
 
 
