@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains programs that demonstrate **properties in Python OOP** using the `@property` decorator. Properties provide a clean and controlled way to access, update, validate, and manage object attributes.
+This folder contains programs that demonstrate **properties in Python OOP** using the `@property` decorator. Properties provide a clean and controlled way to access, update, validate, and compute object attributes.
 
 ## Programs
 
@@ -21,6 +21,11 @@ This folder contains programs that demonstrate **properties in Python OOP** usin
 * **Concept:** Property Validation using Setter
 * Prevents invalid temperature values from being assigned to an object.
 
+### 4. `movie_rating_property.py`
+
+* **Concept:** Computed Property using `@property`
+* Automatically calculates the average movie rating and determines the movie result.
+
 > More property-based programs will be added as I continue learning Python OOP.
 
 ## Learning Outcomes
@@ -29,8 +34,5 @@ This folder contains programs that demonstrate **properties in Python OOP** usin
 * Access private attributes safely.
 * Update attributes using setters.
 * Validate data before modifying object attributes.
-* Protect objects from invalid values.
+* Create computed properties that calculate values automatically.
 * Write cleaner and more Pythonic OOP code.
-
-
-
