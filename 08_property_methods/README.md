@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains programs that demonstrate **properties in Python OOP** using the `@property` decorator. Properties provide a clean and controlled way to access, update, validate, and compute object attributes.
+This folder contains programs that demonstrate **properties in Python OOP** using the `@property` decorator. Properties provide a clean and controlled way to access, update, validate, compute, and protect object attributes.
 
 ## Programs
 
@@ -26,13 +26,26 @@ This folder contains programs that demonstrate **properties in Python OOP** usin
 * **Concept:** Computed Property using `@property`
 * Automatically calculates the average movie rating and determines the movie result.
 
-> More property-based programs will be added as I continue learning Python OOP.
+### 5. `smartwatch_serial_property.py`
+
+* **Concept:** Read-Only Property using `@property`
+* Allows access to a smartwatch serial number while preventing direct modification.
+
+### 6. `gaming_profile_property.py`
+
+* **Concept:** Getter + Setter + Deleter using `@property`
+* Demonstrates complete property management with validation and safe deletion of a gaming profile username.
 
 ## Learning Outcomes
+
+After completing this module, you will be able to:
 
 * Understand the purpose of `@property`.
 * Access private attributes safely.
 * Update attributes using setters.
 * Validate data before modifying object attributes.
 * Create computed properties that calculate values automatically.
-* Write cleaner and more Pythonic OOP code.
+* Build read-only properties to protect important data.
+* Use deleters to remove attributes safely.
+* Write cleaner, safer, and more Pythonic OOP code.
+
